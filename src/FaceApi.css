@@ -1,0 +1,107 @@
+
+/* FaceApi  Start*/
+.Face #webgazerVideoFeed {
+    position: absolute !important;
+    width: 280px !important;
+    height: 270px !important;
+    display: block !important;
+    margin-top: 250px !important;
+    margin-left:10px !important;
+    margin-top: 1px !important;
+    transform: scale(-1, 1) !important;
+    z-index: 2000 !important;
+  }
+  
+.Face .CameraButton {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Face .CameraButton1 {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Face .pagination {
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    align-items: center;
+    height: 45px;
+    min-width: 150px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 30px auto;
+  }
+  
+  .Face .pagination a:hover {
+    background-color: #60c854;
+    color: #fff;
+  }
+  .Face .pagination a {
+    color: black;
+    transition: 0.3s ease all;
+    float: left;
+    text-decoration: none;
+    min-width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* FaceApi  Start*/
+  .Face  #webgazerVideoFeed{
+    position: absolute !important;
+    display: block !important; 
+     transform: scale(-2.7, 1.8) !important;
+      z-index:2000 !important;
+  }
+  
+  .Face #webgazerFaceFeedbackBox{
+    display: block;
+    border: solid green;
+    position: absolute;
+    z-index:2000 !important;
+    width: 280.4px !important;
+    height: 280.4px !important;
+     margin-top:-60px !important;
+    margin-left:-80px !important; 
+  }
+  
+  .Face  #webgazerFaceOverlay {
+    display: block;
+    position: absolute;
+    width: 700px !important;
+    height: 440px !important;
+    display: block !important;
+    z-index: 2000 !important;
+    transform: translate(-164%, -79%);
+    margin-top: -85px !important;
+    margin-left: -210px;
+  }
+  .Face  #webgazerVideoContainer{
+    z-index: 9999999999 !important;
+    left:50% !important;
+    top:50% !important;
+    transform:translate(-50% , -50%);
+  }
+  /* Cameralmages.Css And */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* Cameralmages.Css And */
